@@ -1,0 +1,70 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #14213d;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    background: #fff;
+    width: 270px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.card p, h2{
+    padding: 10px;
+}
+.image1, .image2, .image3{
+    height: 200px;
+    margin-bottom: 20px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+}
+.card a{
+    background-color: #fca311;
+    color: #fff;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    border-radius: 10px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.card:hover{
+    background-color: #03045e;
+    color: #fff;
+    cursor: pointer;
+    transform: scale(1.06);
+    transition: all 1s ease;
+}
+.go{
+    width: 270px;
+    margin-bottom: 20px;
+    border-radius: 15px 15px 0 0;
+    height: 200px;
+}
+.line{
+    width: 270px;
+    margin-bottom: 20px;
+    border-radius: 15px 15px 0 0;
+    height: 200px;
+}
+
+.road{
+    width: 270px;
+    border-radius: 15px 15px 0 0;
+    height: 200px;
+    margin-bottom: 20px;
+}
+h1{
+    text-align: center;
+    color: #fff;
+}
